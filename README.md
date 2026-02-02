@@ -1,4 +1,6 @@
-"""
+# SwinUIUX Project Structure
+
+```
 frontend/
 ├── .env.local                      # Environment variables (local development)
 ├── .env.example                    # Example env file (committed to git)
@@ -93,4 +95,4 @@ frontend/
 │       └── index.ts                # TypeScript interfaces
 │
 └── README.md                       # Project documentation
-"""
+``
