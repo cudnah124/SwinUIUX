@@ -38,15 +38,15 @@ export const FeaturesSection: React.FC = () => {
     ];
 
     return (
-        <section className="bg-aella-gray-50 py-20">
+        <section className="bg-creditai-gray-50 py-20">
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                 {/* Personal Banking */}
                 <div className="mb-16">
                     <div className="mb-12 text-center">
-                        <h2 className="mb-4 text-3xl font-bold text-aella-gray-900 sm:text-4xl">
+                        <h2 className="mb-4 text-3xl font-bold text-creditai-gray-900 sm:text-4xl">
                             Personal Banking
                         </h2>
-                        <p className="text-lg text-aella-gray-600">
+                        <p className="text-lg text-creditai-gray-600">
                             Everything you need for your personal finances
                         </p>
                     </div>
@@ -69,10 +69,10 @@ export const FeaturesSection: React.FC = () => {
                 {/* Business Banking */}
                 <div>
                     <div className="mb-12 text-center">
-                        <h2 className="mb-4 text-3xl font-bold text-aella-gray-900 sm:text-4xl">
+                        <h2 className="mb-4 text-3xl font-bold text-creditai-gray-900 sm:text-4xl">
                             Business Banking
                         </h2>
-                        <p className="text-lg text-aella-gray-600">
+                        <p className="text-lg text-creditai-gray-600">
                             Powerful tools to grow your business
                         </p>
                     </div>

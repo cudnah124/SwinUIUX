@@ -28,20 +28,22 @@ export const HeroSection: React.FC = () => {
                         business documents. Interest rates from 1.2% per month.
                     </p>
 
-                    {/* QR Code Section */}
+                    {/* Upload CTA */}
                     <div className="mb-8">
-                        <div className="inline-block rounded-xl bg-white p-4 shadow-lg">
-                            <div className="flex h-32 w-32 items-center justify-center rounded-lg bg-black">
-                                <QrCode className="text-white" size={100} />
+                        <a href="/upload" className="inline-block">
+                            <div className="rounded-xl bg-white p-4 shadow-lg transition-transform hover:scale-105">
+                                <div className="flex h-32 w-32 items-center justify-center rounded-lg bg-black">
+                                    <QrCode className="text-white" size={100} />
+                                </div>
                             </div>
-                        </div>
-                        <p className="mt-3 text-sm text-white/90">Scan to start your application</p>
+                        </a>
+                        <p className="mt-3 text-sm text-white/90">Scan or click to upload documents</p>
                     </div>
 
                     {/* Trust message */}
                     <p className="text-sm text-white/80">
-                        CrediReady AI uses AI technology to automate loan approval,
-                        helping you get fast and accurate decisions.
+                        CrediReady AI uses Alternative Data (SoBanHang, E-commerce, Bank transactions)
+                        and explainable AI to provide fair credit assessment for micro SMEs without traditional collateral.
                     </p>
                 </div>
             </div>

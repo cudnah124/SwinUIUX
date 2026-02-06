@@ -12,106 +12,44 @@ export const Footer: React.FC = () => {
     };
 
     return (
-        <footer className="bg-aella-navy text-white">
+        <footer className="bg-creditai-navy text-white">
             <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
-                <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-5">
-                    {/* Business */}
+                <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
+                    {/* Quick Links */}
                     <div>
-                        <h3 className="mb-4 text-lg font-semibold">Business</h3>
+                        <h3 className="mb-4 text-lg font-semibold">Quick Links</h3>
                         <ul className="space-y-2">
                             <li>
-                                <Link
-                                    href="/business-banking"
-                                    className="text-aella-gray-200 hover:text-aella-green"
-                                >
-                                    Product Overview
-                                </Link>
-                            </li>
-                            <li>
-                                <Link
-                                    href="/business-support"
-                                    className="text-aella-gray-200 hover:text-aella-green"
-                                >
-                                    Merchant Support
-                                </Link>
-                            </li>
-                            <li>
-                                <Link
-                                    href="/payment-and-collection"
-                                    className="text-aella-gray-200 hover:text-aella-green"
-                                >
-                                    Payments & Collections
-                                </Link>
-                            </li>
-                            <li>
-                                <Link
-                                    href="/fintech-as-a-service"
-                                    className="text-aella-gray-200 hover:text-aella-green"
-                                >
-                                    Fintech as a service
-                                </Link>
-                            </li>
-                        </ul>
-                    </div>
-
-                    {/* Personal */}
-                    <div>
-                        <h3 className="mb-4 text-lg font-semibold">Personal</h3>
-                        <ul className="space-y-2">
-                            <li>
-                                <Link
-                                    href="/payments"
-                                    className="text-aella-gray-200 hover:text-aella-green"
-                                >
-                                    Payments
-                                </Link>
-                            </li>
-                            <li>
-                                <Link
-                                    href="/card"
-                                    className="text-aella-gray-200 hover:text-aella-green"
-                                >
-                                    Card
-                                </Link>
-                            </li>
-                            <li>
-                                <Link
-                                    href="/credit"
-                                    className="text-aella-gray-200 hover:text-aella-green"
-                                >
-                                    Credit
-                                </Link>
-                            </li>
-                            <li>
-                                <Link
-                                    href="/savings"
-                                    className="text-aella-gray-200 hover:text-aella-green"
-                                >
-                                    Vault
-                                </Link>
-                            </li>
-                        </ul>
-                    </div>
-
-                    {/* Company */}
-                    <div>
-                        <h3 className="mb-4 text-lg font-semibold">Company</h3>
-                        <ul className="space-y-2">
-                            <li>
-                                <Link
-                                    href="/about-us"
-                                    className="text-aella-gray-200 hover:text-aella-green"
+                                <a
+                                    href="#about"
+                                    className="text-creditai-gray-200 hover:text-creditai-green"
                                 >
                                     About Us
-                                </Link>
+                                </a>
                             </li>
                             <li>
-                                <Link
-                                    href="/career"
-                                    className="text-aella-gray-200 hover:text-aella-green"
+                                <a
+                                    href="#how-it-works"
+                                    className="text-creditai-gray-200 hover:text-creditai-green"
                                 >
-                                    Careers
-                                </Link>
+                                    How It Works
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="/upload"
+                                    className="text-creditai-gray-200 hover:text-creditai-green"
+                                >
+                                    Upload Documents
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="/dashboard"
+                                    className="text-creditai-gray-200 hover:text-creditai-green"
+                                >
+                                    Dashboard
+                                </a>
                             </li>
                         </ul>
                     </div>
@@ -121,24 +59,32 @@ export const Footer: React.FC = () => {
                         <h3 className="mb-4 text-lg font-semibold">Resources</h3>
                         <ul className="space-y-2">
                             <li>
-                                <Link
-                                    href="/faq"
-                                    className="text-aella-gray-200 hover:text-aella-green"
+                                <a
+                                    href="#resources"
+                                    className="text-creditai-gray-200 hover:text-creditai-green"
                                 >
                                     FAQ
-                                </Link>
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="#contact"
+                                    className="text-creditai-gray-200 hover:text-creditai-green"
+                                >
+                                    Contact Us
+                                </a>
                             </li>
                         </ul>
                     </div>
 
-                    {/* Legal & Contact */}
+                    {/* Legal */}
                     <div>
                         <h3 className="mb-4 text-lg font-semibold">Legal</h3>
-                        <ul className="space-y-2 mb-6">
+                        <ul className="space-y-2">
                             <li>
                                 <Link
                                     href="/terms-and-conditions"
-                                    className="text-aella-gray-200 hover:text-aella-green"
+                                    className="text-creditai-gray-200 hover:text-creditai-green"
                                 >
                                     Terms and Conditions
                                 </Link>
@@ -146,7 +92,7 @@ export const Footer: React.FC = () => {
                             <li>
                                 <Link
                                     href="/privacy-policy"
-                                    className="text-aella-gray-200 hover:text-aella-green"
+                                    className="text-creditai-gray-200 hover:text-creditai-green"
                                 >
                                     Privacy Policy
                                 </Link>
@@ -154,26 +100,31 @@ export const Footer: React.FC = () => {
                             <li>
                                 <Link
                                     href="/security"
-                                    className="text-aella-gray-200 hover:text-aella-green"
+                                    className="text-creditai-gray-200 hover:text-creditai-green"
                                 >
                                     Security
                                 </Link>
                             </li>
                         </ul>
-                        <div>
-                            <h3 className="mb-2 text-lg font-semibold">Contact</h3>
-                            <p className="mb-1 text-sm text-aella-gray-200">
-                                {CONTACT_INFO.supportEmail}
-                            </p>
-                            <p className="text-sm text-aella-gray-200">
-                                {CONTACT_INFO.infoEmail}
-                            </p>
-                        </div>
+                    </div>
+
+                    {/* Contact */}
+                    <div>
+                        <h3 className="mb-4 text-lg font-semibold">Contact</h3>
+                        <p className="mb-2 text-sm text-creditai-gray-200">
+                            {CONTACT_INFO.supportEmail}
+                        </p>
+                        <p className="mb-4 text-sm text-creditai-gray-200">
+                            {CONTACT_INFO.infoEmail}
+                        </p>
+                        <p className="text-sm text-creditai-gray-200">
+                            District 1, Ho Chi Minh City
+                        </p>
                     </div>
                 </div>
 
                 {/* Social Links & Copyright */}
-                <div className="mt-12 border-t border-aella-navy-light pt-8">
+                <div className="mt-12 border-t border-creditai-navy-light pt-8">
                     <div className="flex flex-col items-center justify-between md:flex-row">
                         <div className="mb-4 flex space-x-6 md:mb-0">
                             {SOCIAL_LINKS.map((social) => {
@@ -184,7 +135,7 @@ export const Footer: React.FC = () => {
                                         href={social.url}
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="text-aella-gray-200 hover:text-aella-green"
+                                        className="text-creditai-gray-200 hover:text-creditai-green"
                                         aria-label={social.name}
                                     >
                                         <Icon size={20} />
@@ -192,13 +143,8 @@ export const Footer: React.FC = () => {
                                 );
                             })}
                         </div>
-                        <p className="text-sm text-aella-gray-200">
-                            ©AellaMFB, All Rights Reserved
-                        </p>
-                    </div>
-                    <div className="mt-4 text-center text-xs text-aella-gray-300">
-                        <p>
-                            Licensed by: <strong>CBN</strong> | Insured by: <strong>NDIC</strong>
+                        <p className="text-sm text-creditai-gray-200">
+                            ©CreditAI, All Rights Reserved
                         </p>
                     </div>
                 </div>

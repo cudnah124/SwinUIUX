@@ -9,7 +9,7 @@ const config: Config = {
     theme: {
         extend: {
             colors: {
-                aella: {
+                creditai: {
                     green: '#00C853',
                     'green-dark': '#00A344',
                     navy: '#1A237E',

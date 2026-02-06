@@ -4,16 +4,21 @@
 
 @layer base {
   :root {
-    --aella-green: 0 200 83;
-    --aella-navy: 26 35 126;
+    --creditai-green: 0 200 83;
+    --creditai-navy: 26 35 126;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
   }
 
   body {
-    @apply bg-white text-aella-gray-900 antialiased;
+    @apply bg-white text-creditai-gray-900 antialiased;
   }
 
   * {
-    @apply border-aella-gray-200;
+    @apply border-creditai-gray-200;
   }
 }
 

@@ -19,11 +19,11 @@ frontend/
 ├── package-lock.json               # Lock file for dependencies
 ├── next.config.js                  # Next.js configuration
 ├── tsconfig.json                   # TypeScript config
-├── tailwind.config.ts              # Tailwind customization (Aella brand colors)
+├── tailwind.config.ts              # Tailwind customization (CreditAI brand colors)
 ├── postcss.config.js               # PostCSS for Tailwind
 │
 ├── public/                         # Static assets
-│   ├── logo.png                    # Logo Aella
+│   ├── logo.png                    # Logo CreditAI
 │   ├── hero-phone.png              # Phone mockup
 │   ├── qr-code.png                 # QR code
 │   └── images/

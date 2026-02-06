@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const WhyAellaSection: React.FC = () => {
+export const WhyCreditAISection: React.FC = () => {
     const features = [
         {
             title: 'Fast Automated Approval',

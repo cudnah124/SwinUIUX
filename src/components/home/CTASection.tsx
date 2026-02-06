@@ -1,6 +1,6 @@
 import React from 'react';
+import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
-import { Apple, Smartphone } from 'lucide-react';
 
 export const CTASection: React.FC = () => {
     return (
@@ -10,26 +10,21 @@ export const CTASection: React.FC = () => {
                     {/* Text & Buttons */}
                     <div className="text-white">
                         <h2 className="mb-6 text-4xl font-bold leading-tight sm:text-5xl">
-                            Ready to Grow Your Business?
+                            Ready to Get Your Credit Assessment?
                         </h2>
-                        <p className="mb-8 text-lg text-white/90">Apply today for free consultation</p>
+                        <p className="mb-8 text-lg text-white/90">Upload your financial documents and get instant AI-powered credit analysis</p>
 
                         <div className="flex flex-col gap-4 sm:flex-row">
-                            <button className="flex items-center justify-center gap-3 rounded-lg bg-white px-6 py-4 text-left text-black shadow-lg transition-transform hover:-translate-y-1">
-                                <Apple className="h-8 w-8" />
-                                <div>
-                                    <div className="text-xs">Download on the</div>
-                                    <div className="text-lg font-semibold">App Store</div>
-                                </div>
-                            </button>
-
-                            <button className="flex items-center justify-center gap-3 rounded-lg bg-white px-6 py-4 text-left text-black shadow-lg transition-transform hover:-translate-y-1">
-                                <Smartphone className="h-8 w-8" />
-                                <div>
-                                    <div className="text-xs">Download on the</div>
-                                    <div className="text-lg font-semibold">Play Store</div>
-                                </div>
-                            </button>
+                            <Link href="/upload">
+                                <Button variant="primary" size="lg">
+                                    Upload Documents
+                                </Button>
+                            </Link>
+                            <Link href="#how-it-works">
+                                <Button variant="secondary" size="lg">
+                                    Learn More
+                                </Button>
+                            </Link>
                         </div>
                     </div>
 

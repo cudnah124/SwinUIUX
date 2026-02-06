@@ -1,5 +1,7 @@
-import type { Metadata } from 'next';
+'use client';
+
 import { DM_Sans } from 'next/font/google';
+import { usePathname } from 'next/navigation';
 import './globals.css';
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
@@ -10,39 +12,22 @@ const dmSans = DM_Sans({
     variable: '--font-dm-sans',
 });
 
-export const metadata: Metadata = {
-    title: 'Aella | The one stop app for your banking needs',
-    description:
-        'Enjoy quick payments, zero maintenance fees, low-interest loans and high yield savings accounts. Aella MFB has been empowering financial freedom for over 8 years.',
-    keywords: [
-        'Aella',
-        'banking',
-        'fintech',
-        'mobile banking',
-        'payments',
-        'credit',
-        'savings',
-    ],
-    authors: [{ name: 'AellaMFB' }],
-    openGraph: {
-        title: 'Aella | The one stop app for your banking needs',
-        description:
-            'Enjoy quick payments, zero maintenance fees, low-interest loans and high yield savings accounts.',
-        type: 'website',
-    },
-};
-
 export default function RootLayout({
     children,
 }: Readonly<{
     children: React.ReactNode;
 }>) {
+    const pathname = usePathname();
+    const isDashboard = pathname?.startsWith('/dashboard');
+    const isUpload = pathname?.startsWith('/upload');
+    const hideLayout = isDashboard || isUpload;
+
     return (
         <html lang="en">
             <body className={`${dmSans.variable} font-sans`}>
-                <Header />
+                {!hideLayout && <Header />}
                 <main>{children}</main>
-                <Footer />
+                {!hideLayout && <Footer />}
             </body>
         </html>
     );

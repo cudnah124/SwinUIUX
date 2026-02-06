@@ -12,7 +12,7 @@ export const BusinessSection: React.FC = () => {
                             How It Works
                         </h2>
                         <p className="mb-8 text-lg text-gray-300">
-                            Fully online, fast and transparent
+                            AI-powered credit assessment using Alternative Data
                         </p>
                         <div className="flex flex-col gap-4 sm:flex-row">
                             <Button variant="primary" size="lg">
@@ -40,7 +40,7 @@ export const BusinessSection: React.FC = () => {
                         <div className="p-6">
                             <h3 className="mb-2 text-xl font-bold">Step 1: Apply Online</h3>
                             <p className="text-sm text-gray-400">
-                                Fill out online form with basic info: business name, loan amount, purpose. Takes only 5 minutes.
+                                Quick application form: business info, loan amount, and purpose. Takes only 3 minutes.
                             </p>
                         </div>
                     </div>
@@ -53,9 +53,13 @@ export const BusinessSection: React.FC = () => {
                             </div>
                         </div>
                         <div className="p-6">
-                            <h3 className="mb-2 text-xl font-bold">Step 2: Upload Documents</h3>
+                            <h3 className="mb-2 text-xl font-bold">Step 2: Connect Your Business Data</h3>
                             <p className="text-sm text-gray-400">
-                                Upload invoices, bank statements, business licenses. Our AI agents digitize and validate your documents automatically.
+                                Connect SoBanHang, E-commerce platforms, or upload bank statements and invoices (even handwritten).
+                                Our AI handles messy, unstructured data automatically.
+                            </p>
+                            <p className="mt-2 text-xs text-blue-400">
+                                💡 Powered by AWS Glue + S3 for data processing
                             </p>
                         </div>
                     </div>
@@ -68,9 +72,13 @@ export const BusinessSection: React.FC = () => {
                             </div>
                         </div>
                         <div className="p-6">
-                            <h3 className="mb-2 text-xl font-bold">Step 3: Get Results & Funds</h3>
+                            <h3 className="mb-2 text-xl font-bold">Step 3: Get AI Financial Health Report</h3>
                             <p className="text-sm text-gray-400">
-                                AI analyzes your credit profile within 24h. Get your score, personalized advice to improve approval chances, and loan decision. Funds transfer within 1-2 days if approved.
+                                Receive your credit score, explainable AI insights (SHAP), and personalized recommendations
+                                to optimize cash flow. Loan decision within 24h, funds in 1-2 days if approved.
+                            </p>
+                            <p className="mt-2 text-xs text-blue-400">
+                                🤖 Powered by Amazon SageMaker + Bedrock for AI analysis
                             </p>
                         </div>
                     </div>

@@ -19,11 +19,11 @@ export const Button: React.FC<ButtonProps> = ({
 
     const variants = {
         primary:
-            'bg-aella-green text-white hover:bg-aella-green-dark focus:ring-aella-green',
+            'bg-creditai-green text-white hover:bg-creditai-green-dark focus:ring-creditai-green',
         secondary:
-            'bg-aella-navy text-white hover:bg-aella-navy-light focus:ring-aella-navy',
+            'bg-creditai-navy text-white hover:bg-creditai-navy-light focus:ring-creditai-navy',
         outline:
-            'border-2 border-aella-green text-aella-green hover:bg-aella-green hover:text-white focus:ring-aella-green',
+            'border-2 border-creditai-green text-creditai-green hover:bg-creditai-green hover:text-white focus:ring-creditai-green',
     };
 
     const sizes = {

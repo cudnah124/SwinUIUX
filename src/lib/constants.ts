@@ -5,80 +5,59 @@ export const BRAND_COLORS = {
 
 export const NAV_ITEMS = [
     {
-        label: 'Personal Banking',
-        href: '#personal',
-        dropdown: [
-            { label: 'Payments', href: '/payments' },
-            { label: 'Card', href: '/card' },
-            { label: 'Credit', href: '/credit' },
-            { label: 'Vault', href: '/savings' },
-        ],
+        label: 'About',
+        href: '#about',
     },
     {
-        label: 'Business Banking',
-        href: '#business',
-        dropdown: [
-            { label: 'Product Overview', href: '/business-banking' },
-            { label: 'Merchant Support', href: '/business-support' },
-            { label: 'Payments & Collections', href: '/payment-and-collection' },
-            { label: 'Fintech as a Service', href: '/fintech-as-a-service' },
-        ],
-    },
-    {
-        label: 'Company',
-        href: '#company',
-        dropdown: [
-            { label: 'About Us', href: '/about-us' },
-            { label: 'Careers', href: '/career' },
-        ],
+        label: 'How It Works',
+        href: '#how-it-works',
     },
     {
         label: 'Resources',
         href: '#resources',
-        dropdown: [{ label: 'FAQ', href: '/faq' }],
     },
 ];
 
 export const FEATURE_CARDS = [
     {
-        icon: 'CreditCard',
-        title: 'Payments',
-        description: 'Quick and seamless payments with zero maintenance fees',
+        icon: 'FileText',
+        title: 'Upload Documents',
+        description: 'Securely upload your financial statements for instant analysis',
     },
     {
-        icon: 'Wallet',
-        title: 'Card',
-        description: 'Get your Aella card for easy access to your funds',
+        icon: 'Brain',
+        title: 'AI Assessment',
+        description: 'Advanced AI analyzes your creditworthiness in minutes',
     },
     {
         icon: 'TrendingUp',
-        title: 'Credit',
-        description: 'Low-interest loans to meet your financial needs',
+        title: 'Credit Score',
+        description: 'Get your detailed credit health report and recommendations',
     },
     {
-        icon: 'PiggyBank',
-        title: 'Vault',
-        description: 'High yield savings accounts to grow your wealth',
+        icon: 'Clock',
+        title: 'Fast Approval',
+        description: 'Quick loan decisions based on comprehensive data analysis',
     },
 ];
 
 export const SOCIAL_LINKS = [
-    { name: 'Twitter', icon: 'Twitter', url: 'https://twitter.com/aellaapp' },
-    { name: 'Facebook', icon: 'Facebook', url: 'https://facebook.com/aellaapp' },
+    { name: 'Twitter', icon: 'Twitter', url: 'https://twitter.com/creditaiapp' },
+    { name: 'Facebook', icon: 'Facebook', url: 'https://facebook.com/creditaiapp' },
     {
         name: 'Instagram',
         icon: 'Instagram',
-        url: 'https://instagram.com/aellaapp',
+        url: 'https://instagram.com/creditaiapp',
     },
     {
         name: 'LinkedIn',
         icon: 'Linkedin',
-        url: 'https://linkedin.com/company/aellaapp',
+        url: 'https://linkedin.com/company/creditaiapp',
     },
 ];
 
 export const CONTACT_INFO = {
-    supportEmail: 'support@aellacredit.com',
-    infoEmail: 'info@aellamfb.com',
-    appDownloadUrl: 'https://install.aella.app',
+    supportEmail: 'support@creditai.com',
+    infoEmail: 'info@creditai.com',
+    appDownloadUrl: 'https://app.creditai.com',
 };

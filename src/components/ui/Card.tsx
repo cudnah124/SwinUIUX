@@ -21,9 +21,9 @@ export const Card: React.FC<CardProps> = ({
                 className
             )}
         >
-            {icon && <div className="mb-4 text-aella-green">{icon}</div>}
-            <h3 className="mb-3 text-xl font-bold text-aella-gray-900">{title}</h3>
-            <p className="text-aella-gray-600">{description}</p>
+            {icon && <div className="mb-4 text-creditai-green">{icon}</div>}
+            <h3 className="mb-3 text-xl font-bold text-creditai-gray-900">{title}</h3>
+            <p className="text-creditai-gray-600">{description}</p>
         </div>
     );
 };
